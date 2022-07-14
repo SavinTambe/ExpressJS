@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Login Form</title>
+    <style>
+        body 
+        {
+            background-image: url(background.jpeg);
+            background-size:100%;
+        }
+    </style>
+</head>
+<body>
+    <form action="http://localhost:9000/logincheck" method="post">
+        <table>
+            <tr>
+                <td><b>Enter User id :</b></td>
+                <td><input type="text" name="uid"/></td>
+            </tr>
+            <tr>
+                <td><b>Enter Password :</b></td>
+                <td><input type="password" name="pw"/></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Login"/></td>
+                <td><input type="reset" value="Reset"/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
